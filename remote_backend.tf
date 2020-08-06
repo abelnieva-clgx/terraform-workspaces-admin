@@ -1,9 +1,9 @@
 terraform {
   backend "remote" {
-    organization = "exampleOrg"
+    organization = "Demo_abel"
 
     workspaces {
-      name = "workspaces-mgmt"
+      name = "terraform-workspaces-admin"
     }
   }
 }

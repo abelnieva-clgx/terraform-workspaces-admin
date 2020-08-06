@@ -1,5 +1,5 @@
 resource "tfe_organization" "exampleOrg" {
-  name  = "exampleOrg"
+  name  = "Demo_abel"
   email = "exampleOrg@gmail.com"
 
   collaborator_auth_policy = "two_factor_mandatory"
