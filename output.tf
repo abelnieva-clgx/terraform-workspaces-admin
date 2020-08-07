@@ -1,6 +1,6 @@
 data "tfe_workspace_ids" "all" {
   names        = ["*"]
-  organization = "exampleOrg"
+  organization = tfe_organization.exampleOrg.id
 }
 
 output "worksapce_ids" {

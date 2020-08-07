@@ -1,8 +1,7 @@
 resource "tfe_organization" "exampleOrg" {
-  name  = "exampleOrg"
+  name  = "Demo_abel_apps"
   email = "exampleOrg@gmail.com"
 
-  collaborator_auth_policy = "two_factor_mandatory"
 }
 
 resource "tfe_oauth_client" "github" {
