@@ -1,6 +1,6 @@
 terraform {
   backend "remote" {
-    organization = "Demo_abel_apps"
+    organization = "Demo_abel"
 
     workspaces {
       name = "terraform-workspaces-admin"
