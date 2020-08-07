@@ -1,5 +1,5 @@
 resource "tfe_organization" "exampleOrg" {
-  name  = "Demo_abel_apps"
+  name  = "Demo_abel_apps2"
   email = "exampleOrg@gmail.com"
 
 }
